@@ -1,8 +1,11 @@
+''' This code also filters out unwanted columns from our files but it also only prints out
+the key words we've identified in a specific column (i.e. Donegal in column 1) '''
+
 # File that contains my raw data
 file = open("RawData.csv","r")
 
 # File that I will write my processed data to
-file2 = open("CleanedData.csv","w")
+file2 = open("CleanedData03.csv","w")
 
 # Write some headings to the CSV file
 file2.write("Town Name"+","+"Phone Numbers"+"\n")
